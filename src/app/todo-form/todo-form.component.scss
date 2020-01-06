@@ -9,12 +9,13 @@ div{
 
 .input
 {
-  width: 50%;
-  height: 100%;
+  display: block;
+  width: 30%;
+  padding: 0.4rem;
+  font-size: 1.2rem;
   border: 1px solid #cccccc;
   border-radius: 5px;
-  outline: none;
-  padding: 0.5rem;
+  margin: 1.2rem;
 }
 
 .filter
@@ -27,12 +28,15 @@ div{
 }
 
 .button{
-$color:#eee;
-height:100%;
-border:1px solid  #ccc;
-border-radius:5px;
-outline:none;
-padding: 0.5rem;
-background: $color;
-transition:.3s all;
+  display: inline-block;
+  background: #333333;
+  color: #fff;
+  padding: 0.4rem 1.3rem;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  transition: opacity 0.2s ease-in;
+  outline: none;
 }
+

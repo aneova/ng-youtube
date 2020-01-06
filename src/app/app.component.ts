@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ng-youtube';
-  appTitle ='Angular todo app';
+  appTitle ='Angular todo app! Add and filter items fro the list!';
 
 }
